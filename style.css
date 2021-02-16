@@ -260,6 +260,18 @@
     font-family: 'Libre Baskerville', serif;
     color: #222222;
   }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    width: 70%;
+    margin-left: 20%;
+  }
+
+  .images img {
+    width: 40%;
+  }
   
   footer {
     display: none;
@@ -337,6 +349,12 @@
       width: 44%;
       margin-top: 30px;
     }
+
+    .gallery {
+      margin-top: 300px;
+      width: 90%;
+      margin-left: 15%;
+  }
   
     footer {
       margin-top: 30px;
@@ -359,7 +377,7 @@
   }
   
 
-  @media (min-width: 360px) and (max-width: 767px) {
+  @media (max-width: 767px) {
 
     .big-screen-nav {
         display: none;
@@ -478,6 +496,12 @@
     
     h4 {
       text-align: center;
+    }
+
+    .gallery {
+      margin-top: 300px;
+      width: 100%;
+      margin-left: 10%;
     }
     
     footer {
